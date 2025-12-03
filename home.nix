@@ -12,7 +12,7 @@
     ./.config/hypr/hyprland.nix
     ./.config/kitty/kitty.nix
     ./.config/neofetch/neofetch.nix
-    ./.config/nvim/neovim.nix
+    #./.config/nvim/neovim.nix
     ./.config/powerlevel10k/powerlevel10k.nix
     ./.config/rofi/rofi.nix
     ./.config/tmux/tmux.nix

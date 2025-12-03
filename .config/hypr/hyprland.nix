@@ -7,7 +7,10 @@
   programs.hyprlock.enable = true;   # Lock screen 
   home.file.".config/hypr/hyprlock.conf".source = ./hyprlock.conf;
 
-  programs.hypridle.enable = true;   # Idle management
+  services.hypridle = {           # Idle management
+    enable = true;
+    settings = null;
+  };  
   home.file.".config/hypr/hypridle.conf".source = ./hypridle.conf;
 
   programs.hyprpaper.enable = true;  # Wallpaper manager
