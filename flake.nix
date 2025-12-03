@@ -23,7 +23,7 @@
         modules = [
           ./hosts/thinkpad/configuration.nix
           ./modules/display-manager.nix
-          ./modules/audio.nix
+          #./modules/audio.nix
 
           home-manager.nixosModules.home-manager {
             home-manager.users.keshav = {

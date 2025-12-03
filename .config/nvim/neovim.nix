@@ -1,3 +1,4 @@
+{ config, pkgs, lib, ... }:
 {
 
   home.file.".config/nvim/init.lua".source = ~/Nix-dotfiles/.config/nvim/init.lua;
